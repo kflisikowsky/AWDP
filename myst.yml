@@ -23,7 +23,6 @@ project:
     - file: intro.md
       children:
         - file: syllabus.md
-        - file: final.md
     - file: 01-review1.ipynb
     - file: 02-review2.ipynb
     - file: 03-git.ipynb
