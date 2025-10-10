@@ -4,13 +4,13 @@ downloads:
     title: Plik PDF
 ---
 
-# Witaj na kursie SAD 2025!
+# Witaj na kursie AWDP!
 
-AWDP 2025 | Karol Flisikowski | Zima 2025 | PG
+AWDP | Karol Flisikowski | Zima 2025 | PG
 
 ## O kursie
 
-Ten kurs (część 1/2) nauczy Cię, jak myśleć o **danych** i **wizualizacji** dla **eksploracyjnej analizy danych** (EDA). 
+Ten kurs nauczy Cię, jak myśleć o **danych** i **wizualizacji** dla **eksploracyjnej analizy danych** (EDA). 
 
 - Jak jest **formatowany** zbiór danych i czy jest to odpowiedni format dla tego, co chcę zrobić? 
 - Czy ten zbiór danych jest **reprezentatywny** lub czy odzwierciedla **obiektywną próbę**? 
