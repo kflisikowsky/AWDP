@@ -14,7 +14,7 @@ project:
   description: Analiza i wizualizacja danych w Pythonie
   keywords: [sad, statystyka, analiza danych]
   authors: [Karol Flisikowski]
-  banner: banner.png
+  banner: baner_pg.png
   github: https://github.com/kflisikowsky/awdp
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
