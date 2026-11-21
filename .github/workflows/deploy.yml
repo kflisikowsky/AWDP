@@ -18,17 +18,39 @@ permissions:
   pages: write
   id-token: write
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-pro# However, do NOT cancel in-ow# However, do NOT cancel in-pro# However, 
-concurrency:
-  group: 'pages'
-  cancel-in-progress: false
-jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubun    runs-on: ubun    runs-on: ubun    runs-on: uout@v4    ru -   me: Setup Pages
-        uses: actions/configure        uses:   - use   actions/setup-node@v4
+# However, do NOT cancel in-pr# However, do NOT cancel in-low# However, do NOT cancel in-pr# However, d
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccconccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccconccccccccccccbunccccccccccccccccccccccccccccccccccccccccccccheckout@v4ccccc  - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - uses: ac      - uses: ac      - uses: ac      - uses: ac      - uses: ac      - ame: Install MyST
+        run:        run:        run:        run:        run:        run:        run:        run:        -        run:        run:        run:        run:        run:        run:        run:        run:        es        run:        run:        run:        runDep        run:        run:        run:        run:        run:        run: ag        rungi        ruhub/workflows/deploy.yml
+git commit -m "fix: Restore correct workflow file"
+git push
+cd /Users/Karol/AWDP2026/AWDP
+
+cat > .github/workflows/deploy.yml << 'EOF'
+# This file was created automatically with `jupyter-book init --gh-pages` 🪄 💚
+# Ensure your GitHub Pages settings for this repository are set to deploy with **GitHub Actions**.
+
+name: Jupyter Book (via myst) GitHub Pages Deploy
+on:
+  push:
+    # Runs on pushes targeting the default branch
+    branches: [main]
+env:
+  # `BASE_URL` determines, relative to the root of the domain, the URL that your site is served from.
+  # E.g., if your site lives at `https://mydomain.org/myproject`, set `BASE_URL=/myproject`.
+  # If, instead, your site lives at the root of the domain, at `https://mydomain.org`, set `BASE_URL=''`.
+  BASE_URL: /${{ github.event.repository.name }}
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-pr# However, do NOT cancel in-low# However, do NOT cancel in-pr# However, d
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccconccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccconccccccccccccbuncccccccccccccccccccccccccc - uses: actions/checkouccv4
+      -      -      -      -      -      -      -      re      -      -     ses: actions/setup-node@v4
         with:
           node-version: 24.x
       - name: Install MyST
@@ -38,9 +60,4 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: github-pages
-          path: './_build/html'
-          if-no-files-found: error
-          retention-days: 1
-      - name: Deploy to GitHub Pages
-        id: deployment        id: d:         id: deplages@v4
+          name: github-pages          name: github-pages          name: gitDep          name: github-pages          name: github-pages          name: gages@v4
